@@ -1,4 +1,4 @@
-# prueba ballena
+# EXPERIENCIA AR
 
 Experiencia de realidad aumentada creada con Zence Inverse Reality.
 

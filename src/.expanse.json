@@ -1,71 +1,6 @@
 {
   "entrySpaceId": "4c682c37-7cc6-4d2f-8a5d-14b101e4a3ae",
   "objects": {
-    "12ccf3a4-2491-474b-ac9b-5b5076d3b52b": {
-      "components": {
-        "430c0a74-50e4-4743-9ebe-b69925d5b645": {
-          "id": "430c0a74-50e4-4743-9ebe-b69925d5b645",
-          "name": "inre-gif",
-          "parameters": {
-            "alphaTest": 0
-          }
-        },
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.75,
-            "demora": 0.08,
-            "esGltf": false,
-            "esTextura": true,
-            "esVideo": true
-          }
-        }
-      },
-      "geometry": {
-        "type": "sphere",
-        "radius": 0.5
-      },
-      "id": "12ccf3a4-2491-474b-ac9b-5b5076d3b52b",
-      "material": {
-        "type": "basic",
-        "color": "#ffffff",
-        "roughness": 0.85,
-        "metalness": 0,
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/Aguacate_gif.gif"
-        },
-        "inreMaterial": "Aguacate_gif"
-      },
-      "name": "Esfera",
-      "order": 1.3732870758818643,
-      "parentId": "e560f008-e184-4864-9697-630ff4d13582",
-      "position": [
-        -1.087,
-        0,
-        0.626
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
-      "videoControls": {
-        "loop": true,
-        "paused": false
-      }
-    },
     "1f361e59-ad8c-477a-a176-c3c55af817a8": {
       "components": {},
       "geometry": null,
@@ -125,65 +60,32 @@
         1
       ]
     },
-    "267010f2-57a4-4532-b1d2-27d378a5ecbb": {
-      "components": {
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.24,
-            "demora": 0,
-            "esGltf": true,
-            "esTextura": true,
-            "esVideo": false
-          }
-        },
-        "db7f526b-47d7-4074-966a-d5aa747f0b9e": {
-          "id": "db7f526b-47d7-4074-966a-d5aa747f0b9e",
-          "name": "inre-material-modelo",
-          "parameters": {}
-        }
-      },
+    "71278510-b6c9-432a-b898-8dfe29022c73": {
+      "components": {},
       "geometry": null,
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/biowhale-animated.glb"
-        },
-        "animationClip": "Take 001",
-        "loop": true
+      "id": "71278510-b6c9-432a-b898-8dfe29022c73",
+      "imageTarget": {
+        "name": "WhatsApp_Image_2026-11-21_at_3_24_21_PM"
       },
-      "id": "267010f2-57a4-4532-b1d2-27d378a5ecbb",
-      "material": {
-        "type": "basic",
-        "color": "#ffffff",
-        "roughness": 0.85,
-        "metalness": 0,
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/Whale_Diffuse.png"
-        },
-        "repeatY": -1,
-        "inreMaterial": "Whale"
-      },
-      "name": "biowhale-animated",
-      "order": 0.37328707588186416,
-      "parentId": "e560f008-e184-4864-9697-630ff4d13582",
+      "material": null,
+      "name": "Marcador · WhatsApp_Image_2026-11-21_at_3_24_21_PM",
+      "order": 3.5,
+      "parentId": "4c682c37-7cc6-4d2f-8a5d-14b101e4a3ae",
       "position": [
-        0.736,
-        -0.18,
-        0.544
+        0,
+        0,
+        0
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865475
+        0,
+        1
       ],
       "scale": [
-        0.183,
-        0.159,
-        0.164
+        1,
+        1,
+        1
       ]
     },
     "7cb77069-1026-42aa-b018-7605fe930021": {
@@ -224,16 +126,16 @@
         1
       ]
     },
-    "e560f008-e184-4864-9697-630ff4d13582": {
+    "981fba23-78ae-49e1-b0b8-11a22b7a89bc": {
       "components": {},
       "geometry": null,
-      "id": "e560f008-e184-4864-9697-630ff4d13582",
+      "id": "981fba23-78ae-49e1-b0b8-11a22b7a89bc",
       "imageTarget": {
-        "name": "contraste"
+        "name": "WhatsApp_Image_2026-11-21_at_3_49_08_PM_2"
       },
       "material": null,
-      "name": "Marcador · contraste",
-      "order": 6.5,
+      "name": "Marcador · WhatsApp_Image_2026-11-21_at_3_49_08_PM_2",
+      "order": 4.5,
       "parentId": "4c682c37-7cc6-4d2f-8a5d-14b101e4a3ae",
       "position": [
         0,
@@ -252,73 +154,105 @@
         1
       ]
     },
-    "fceec727-0159-42da-a37a-b2ffd2930636": {
+    "dd9fdd5e-08a5-4d8d-a8f5-1ad47a5a1f95": {
       "components": {
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
           "parameters": {
-            "cubo": 0.75,
-            "demora": 0.16,
+            "cubo": 0.664,
+            "demora": 0,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
           }
-        },
-        "e23d0d2a-07bb-427d-86e3-40d67625ad30": {
-          "id": "e23d0d2a-07bb-427d-86e3-40d67625ad30",
-          "name": "inre-video",
-          "parameters": {
-            "alphaTest": 0.5,
-            "blending": "normal",
-            "depthTest": true,
-            "depthWrite": false,
-            "forceTransparent": true,
-            "side": "double"
-          }
         }
       },
       "geometry": {
-        "type": "sphere",
-        "radius": 0.5
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
       },
-      "id": "fceec727-0159-42da-a37a-b2ffd2930636",
+      "id": "dd9fdd5e-08a5-4d8d-a8f5-1ad47a5a1f95",
       "material": {
         "type": "video",
         "color": "#ffffff",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/cubev2.webm"
-        },
-        "forceTransparent": true,
-        "depthWrite": false,
-        "side": "double",
-        "alphaTest": 0.5,
-        "inreMaterial": "cubev2"
+          "asset": "assets/WhatsApp_Video_2026-11-21_at_4_18_40_PM.mp4"
+        }
       },
-      "name": "Esfera",
-      "order": 2.3732870758818643,
-      "parentId": "e560f008-e184-4864-9697-630ff4d13582",
+      "name": "WhatsApp_Video_2026-11-21_at_4_18_40_PM",
+      "order": 0.4311344031446781,
+      "parentId": "71278510-b6c9-432a-b898-8dfe29022c73",
       "position": [
         0,
-        0,
-        0.5
+        -1.1102230246251565e-16,
+        0.02
       ],
       "rotation": [
-        0.4788918549553735,
-        -0.5202524303233974,
-        0.5202524303233976,
-        0.4788918549553735
+        0,
+        0,
+        0,
+        1
       ],
       "scale": [
         1,
         1,
         1
       ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "e641a8b3-bedd-4169-97df-c7a347caf762": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
       },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
+      },
+      "id": "e641a8b3-bedd-4169-97df-c7a347caf762",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Animate_viking_and_bear_illustra__04c43f09.mp4"
+        }
+      },
+      "name": "Animate_viking_and_bear_illustra__04c43f09",
+      "order": 0.9139310310555586,
+      "parentId": "981fba23-78ae-49e1-b0b8-11a22b7a89bc",
+      "position": [
+        0,
+        -1.1102230246251565e-16,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
       "videoControls": {
         "loop": true,
         "paused": false
