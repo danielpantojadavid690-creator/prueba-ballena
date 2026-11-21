@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/contraste_luminance.png",
+  "resources": {
+    "originalImage": "contraste_original.png",
+    "croppedImage": "contraste_cropped.png",
+    "thumbnailImage": "contraste_thumbnail.png",
+    "luminanceImage": "contraste_luminance.png"
+  },
+  "name": "contraste",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 0,
+    "left": 50,
+    "width": 300,
+    "height": 400,
+    "isRotated": false,
+    "originalWidth": 400,
+    "originalHeight": 400
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795226006437,
+  "updated": 1795226006437
+}
